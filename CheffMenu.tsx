@@ -55,7 +55,7 @@ export default function Menu({ navigation, starters, mains, desserts, setStarter
   return (
     <ImageBackground source={bgImage} style={styles.background} resizeMode="cover">
       <ScrollView contentContainerStyle={styles.container}>
-        <Text style={styles.title}>THE FOOD APP</Text>
+        <Text style={styles.title}>Cheff Menu</Text>
 
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Total Dishes Available</Text>
